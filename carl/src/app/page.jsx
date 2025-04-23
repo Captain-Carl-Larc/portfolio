@@ -1,9 +1,12 @@
-import Hero from "./components/Hero";
+import HeroSection from "./components/Hero";
+import AboutSection from "./components/About"
+//import TechnicalSkillsSection from "./components/Skills"
 export default function Home() {
   return (
     <>
       <section className="">
-        <Hero />
+        <HeroSection />
+        <AboutSection/>        
       </section>
     </>
   );
