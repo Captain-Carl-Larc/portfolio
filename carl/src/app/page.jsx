@@ -3,6 +3,7 @@ import AboutSection from "./components/About"
 import Footer from "./components/Footer";
 import Skills from "./components/Skills";
 import ProjectStatsSection from "./components/statSection";
+import ProjectsSection from "./components/projects";
 //import TechnicalSkillsSection from "./components/Skills"
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <AboutSection/>
         <Skills/>
         <ProjectStatsSection/>
+        <ProjectsSection/>
         <Footer/>     
       </section>
     </>
